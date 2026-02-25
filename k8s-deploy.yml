@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: zak1docker/zak-mavenwebapp3:4
+      image: zak1docker/zak-mavenwebapp3:5
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
